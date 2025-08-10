@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky",
-    "format": "bun prettier . --write",
+    "format": "prettier --write .",
     "db:push": "drizzle-kit push:pg",
     "db:introspect": "drizzle-kit introspect:pg",
     "db:studio": "drizzle-kit studio --port 3001 --verbose",
